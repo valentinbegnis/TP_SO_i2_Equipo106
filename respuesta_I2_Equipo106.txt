@@ -9,6 +9,11 @@ git remote add upstream git@github.com:jonyalanoca/TP_SO_i2_Equipo106.git
 git fecth upstream
 git rebase upstream/main
 git push origin main
-```
 
 B) No, ALFA solo puede actualizar su repositorio al estado del repositorio de BETA (el original).
+
+C) NO, GAMMA solo puede actulizar su repositorio al estado del repositorio de BETA (el original).
+
+D) No, el repositorio de Beta no pierde ningun dato.
+
+
