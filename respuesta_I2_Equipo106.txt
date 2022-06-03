@@ -1,0 +1,53 @@
+INTEGRANTES: 
+-Bastardo Valentino (Alfa)
+-Alanoca Jonathan (Beta)
+-Begnis Valentín(GAMMA)
+
+A) Mediante los siguientes comandos:
+
+git remote add upstream git@github.com:jonyalanoca/TP_SO_i2_Equipo106.git
+git fecth upstream
+git rebase upstream/main
+git push origin main
+
+B) No, ALFA solo puede actualizar su repositorio al estado del repositorio de BETA (el original).
+
+C) NO, GAMMA solo puede actulizar su repositorio al estado del repositorio de BETA (el original).
+
+D) No, el repositorio de Beta no pierde ningun dato.
+
+E)
+BETA
+
+crea repositorio
+crea "fork.txt"
+git add .
+git commit m- "inicio del tp2"
+git push origin main
+-----------------------
+Crea "NuevoDato.txt"
+git add .
+git commit m- "Se agrega NuevoDato.txt"
+git push origin main
+-----------------------
+crea "respuesta_I2_Equipo106.txt"
+git add .
+git commit m- "se agrego el archivo respuestas"
+git push origin main
+-----------------------
+Acepta pull request para modificar el archivo.
+
+ALFA Y GAMMA
+
+fork al repositorio de BETA
+modificar "fork.txt" y subirlo
+git add .
+git commit m- "agrego datos"
+git push origin main
+-----------------------
+git remote add upstream git@github.com:jonyalanoca/TP_SO_i2_Equipo106.git
+git fecth upstream
+git rebase upstream/main
+git push origin main
+-----------------------
+pull request para responder preguntas en el repositorio de BETA
